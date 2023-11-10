@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Personal Details</legend>
+   <form>
+    <label for="fname" required>Firstname:</label>
+    <input type="text" name="firstname" id="fname">
+    <br><br>
+    <label for="mname">Middlename:</label>
+    <input type="text" name="middlename" id="mname">
+    <br><br>
+    <label for="lname">Lastname:</label>
+    <input type="text" name="middlename" id="lname">
+    <br><br>
+    <label for="Course">Course:</label>
+    <select name="qualification" id="Course">
+    <option value="">Course</option>
+    <option value="">Btech</option>
+    <option value="">Mtech</option>
+    <option value="">BSC</option>
+    <option value="">BA</option>
+    <option value="">BCOM</option>
+    <option value="">BCA</option>
+    <option value="">MBBS</option>
+    <option value="">MA</option>
+</select>
+<br><br>
+  <label for="gender" required>Gender:</label>
+  <br>
+  <input type="radio" name="gender" id="gender">
+  <label for="gender">Male</label>
+  <br>
+  <input type="radio" name="gender" id="gender">
+  <label for="gender">Female</label>
+  <br>
+  <input type="radio" name="gender" id="gender">
+  <label for="gender">Other</label>
+  <br><br>
+  <label for="dob">DOB</label>
+  <input type="datetime-local" name="" id="dob">
+  <br>
+  <label for="phno">Phone:</label>
+  <input type="text" name="" id="phone" placeholder="+91" disabled required size="3">
+  <input type="number" id="phone" maxlength="10">
+    <br><br>
+    <label for="ads">Address</label>
+    <br>
+    <textarea name="ads" id="" cols="90" rows="5"></textarea>
+    <br><br>
+    <label for="mail">Email:</label>
+    <input type="text" id="mail" required placeholder="a@gmail.com">
+    <br><br><br>
+    <label for="pass">Password:</label>
+    <input type="text" id="pass">
+    <br><br><br>
+    <label for="re-pass">Re-type password:</label>
+    <input type="text" id="re-pass">
+    <br><br>
+    <input type="checkbox" id="terms">
+    <label for="terms">Agree to terms and conditions</label>
+    <br><br>
+    <label for="file_chs">Choose File</label>
+    <input type="file" name="" id="file_chs">
+    <br><br>
+    <label for="clr">Choose color:</label>
+    <input type="color" name="" id="clr">
+    <br><br>
+    <input type="Reset" value="Reset">
+    <input type="submit" value="Submit">
+   </form>
+</fieldset>
+</body>
+</html>
